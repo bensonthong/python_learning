@@ -15,3 +15,9 @@ def sleep_in(weekday,vacation):
 #diff21(19) → 2
 #diff21(10) → 11
 #diff21(21) → 0
+
+def diff21(n):
+  if n>21:
+    return 2*abs(2-n)
+  else:
+    return 21-n
